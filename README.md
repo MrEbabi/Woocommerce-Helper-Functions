@@ -9,3 +9,8 @@
 - All solutions (codes) goes to functions.php of your theme or child theme.
 
 ---
+
+## append-sku-to-titles
+Append product SKU's to product titles programmatically
+
+---
