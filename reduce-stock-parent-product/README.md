@@ -1,8 +1,8 @@
-Reduce stock of parent product when a variable (child) product is sold
+### Reduce stock of parent product when a variable (child) product is sold
 
 ---
 
-Problem:
+### Problem:
 
 "I have stock items with variations all of which have stock management; The problem is when I do sell a stock variation item the parent item stock count does not reduce !
 
@@ -12,4 +12,5 @@ Is there a plugin or code which will allow me to do this ?"
 
 ---
 
-Link: https://stackoverflow.com/questions/57239697/stock-of-parent-sku-must-be-equal-to-stock-of-all-variations/
+### Link: 
+https://stackoverflow.com/questions/57239697/stock-of-parent-sku-must-be-equal-to-stock-of-all-variations/
