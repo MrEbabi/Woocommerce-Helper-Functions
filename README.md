@@ -22,3 +22,8 @@ Pass a parameter from URL to Woocommerce checkout page and get this value in the
 
 ## show-max-price-for-variable-products
 Show only the max price (instead of min to max price range) of variable products
+
+---
+
+## reduce-stock-parent-product
+Reduce stock of parent product when a variable (child) product is sold
