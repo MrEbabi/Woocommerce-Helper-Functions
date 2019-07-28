@@ -17,3 +17,8 @@ Append product SKU's to product titles programmatically
 
 ## pass-parameter-from-URL
 Pass a parameter from URL to Woocommerce checkout page and get this value in the order details
+
+---
+
+## show-max-price-for-variable-products
+Show only the max price (instead of min to max price range) of variable products
