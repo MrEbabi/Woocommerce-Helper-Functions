@@ -1,8 +1,8 @@
-Pass a parameter from URL to Woocommerce checkout page and get this value in the order details
+### Pass a parameter from URL to Woocommerce checkout page and get this value in the order details
 
 ---
 
-Problem:
+### Problem:
 
 "I am looking to use WooCommerce in a bit of a strange way, and I'm wondering if there is any way to make this possible. Here's my desired workflow:
 
@@ -26,4 +26,6 @@ Thanks so much."
 
 ---
 
-Link: https://stackoverflow.com/questions/57217135/is-it-possible-to-pass-a-special-query-parameter-value-to-a-woocommerce-product/
+### Link: 
+
+https://stackoverflow.com/questions/57217135/is-it-possible-to-pass-a-special-query-parameter-value-to-a-woocommerce-product/
