@@ -1,3 +1,7 @@
+Append product SKU's to product titles
+
+---
+
 Problem: 
 
 "i want to add product sku to actual product title. for example, if product name is "Dress design" & product sku is "2790" the new product title should be "Dress design - 2790".
