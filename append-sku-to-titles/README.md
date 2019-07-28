@@ -1,4 +1,4 @@
-Append product SKU's to product titles programmatically
+### Append product SKU's to product titles programmatically
 
 ---
 
