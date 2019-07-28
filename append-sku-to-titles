@@ -1,0 +1,48 @@
+Problem: 
+
+"i want to add product sku to actual product title. for example, if product name is "Dress design" & product sku is "2790" the new product title should be "Dress design - 2790".
+
+i had tried following code. but this code replaces the product title by the product SKU on single product pages.
+
+but i want "product title + Sku", & i want to display it on single product page & shop page & checkout page & cart page."
+
+---
+
+Link: https://stackoverflow.com/questions/57217101/add-product-sku-to-product-title-in-woocommerce-single-product-page-shop-page/
+
+---
+
+Solution:
+
+function append_sku_to_titles() {
+
+ $all_ids = get_posts( array(
+    'post_type' => 'product',
+    'numberposts' => -1,
+    'post_status' => 'publish',
+    'fields' => 'ids'
+));
+
+foreach ( $all_ids as $id ) {
+        $_product = wc_get_product( $id );
+        $_sku = $_product->get_sku();
+        $_title = $_product->get_title();
+
+        $new_title = $_title . " " . $_sku;
+
+        /*
+        *   Tested.
+        *   echo $_title + $_sku;
+        *   echo("<script>console.log('Old: ".$_title. " - ". $_sku."');</script>");
+        *   echo("<script>console.log('New: ".$new_title."');</script>");
+        */
+
+        $updated = array();
+        $updated['ID'] = $id;
+        $updated['post_title'] = $new_title;
+
+        wp_update_post( $updated );
+}}
+
+//Call the function with footer (*Attention)
+add_action( 'wp_footer', 'append_sku_to_titles' );
