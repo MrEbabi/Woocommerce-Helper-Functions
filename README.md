@@ -14,3 +14,6 @@
 Append product SKU's to product titles programmatically
 
 ---
+
+## pass-parameter-from-URL
+Pass a parameter from URL to Woocommerce checkout page and get this value in the order details
