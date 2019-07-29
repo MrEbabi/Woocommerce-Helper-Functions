@@ -8,24 +8,25 @@ function append_sku_to_titles() {
 ));
 
 foreach ( $all_ids as $id ) {
-        $_product = wc_get_product( $id );
-        $_sku = $_product->get_sku();
-        $_title = $_product->get_title();
 
-        $new_title = $_title . " " . $_sku;
+    $_product = wc_get_product( $id );
+    $_sku = $_product->get_sku();
+    $_title = $_product->get_title();
 
-        /*
-        *   Tested.
-        *   echo $_title + $_sku;
-        *   echo("<script>console.log('Old: ".$_title. " - ". $_sku."');</script>");
-        *   echo("<script>console.log('New: ".$new_title."');</script>");
-        */
+    $new_title = $_title . " " . $_sku;
 
-        $updated = array();
-        $updated['ID'] = $id;
-        $updated['post_title'] = $new_title;
+    /*
+    *   Tested.
+    *   echo $_title + $_sku;
+    *   echo("<script>console.log('Old: ".$_title. " - ". $_sku."');</script>");
+    *   echo("<script>console.log('New: ".$new_title."');</script>");
+    */
 
-        wp_update_post( $updated );
+    $updated = array();
+    $updated['ID'] = $id;
+    $updated['post_title'] = $new_title;
+
+    wp_update_post( $updated );
 }}
 
 //Call the function with footer (*Attention)
