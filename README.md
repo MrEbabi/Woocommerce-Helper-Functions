@@ -28,3 +28,15 @@ Show only the max price (instead of min to max price range) of variable products
 
 ## reduce-stock-parent-product
 Reduce stock of parent product when a variable (child) product is sold
+
+---
+
+## button-in-cart-page-to-add-product
+Custom button for Cart Page to add a particular product to cart, refreshing the cart and recalculating the totals
+
+---
+
+## get-coupon-codes-applied-to-orders
+Retrieve the shop coupon codes applied to the orders and display them. A simple report for Coupons&Orders
+
+---
