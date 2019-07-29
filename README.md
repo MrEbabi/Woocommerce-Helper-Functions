@@ -40,3 +40,8 @@ Custom button for Cart Page to add a particular product to cart, refreshing the 
 Retrieve the shop coupon codes applied to the orders and display them. A simple report for Coupons&Orders
 
 ---
+
+## customize-admin-reports-page
+Edit and customize the admin reports page using hook, run your code when this page is clicked or disallow others to see Woocommerce reports
+
+---
