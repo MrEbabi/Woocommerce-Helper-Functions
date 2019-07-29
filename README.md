@@ -1,5 +1,6 @@
 # Woocommerce-Helpful-Functions
 - This repository includes different functions and solutions that I develop for specific Woocommerce problems mentioned in stackoverflow posts.
+- or you can call it as "Remembrall repository".
 
 - Each file includes:
  1) Link of stackoverflow post
