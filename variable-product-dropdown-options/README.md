@@ -10,3 +10,7 @@
 
 ### Link: 
 https://stackoverflow.com/questions/57255091/woocommerce-dropdown-screen-add-to-cart-hook
+
+---
+
+To-Do: Better solution by providing Add to Cart (for default variation) and See Options buttons together in shop and other archive pages
