@@ -45,3 +45,9 @@ Retrieve the shop coupon codes applied to the orders and display them. A simple 
 Edit and customize the admin reports page using hook, run your code when this page is clicked or disallow others to see Woocommerce reports
 
 ---
+
+## generate-coupon-for-first-order
+Generate a Coupon that for users (customers) that registered recently (last 14 days) and have no orders for now. Coupon is generated once and it updates itself automatically.
+
+---
+---
