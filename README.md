@@ -50,4 +50,3 @@ Edit and customize the admin reports page using hook, run your code when this pa
 Generate a Coupon that for users (customers) that registered recently (last 14 days) and have no orders for now. Coupon is generated once and it updates itself automatically.
 
 ---
----
