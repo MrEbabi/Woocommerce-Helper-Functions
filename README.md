@@ -50,3 +50,8 @@ Edit and customize the admin reports page using hook, run your code when this pa
 Generate a Coupon that for users (customers) that registered recently (last 14 days) and have no orders for now. Coupon is generated once and it updates itself automatically.
 
 ---
+
+## add-or-edit-column-in-admin-order-page
+Add a new column to or Edit an existing column on Woocommerce Admin Order List Page or Edit Preview Section of Orders
+
+---
