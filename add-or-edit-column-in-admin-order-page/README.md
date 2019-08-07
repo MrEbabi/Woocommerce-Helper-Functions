@@ -1,4 +1,4 @@
-### Add a new column to or Edit an existing column on Woocommerce Admin Order List Page
+### Add a new column to or Edit an existing column on Woocommerce Admin Order List Page or Edit Preview Section of Orders
 
 ---
 
