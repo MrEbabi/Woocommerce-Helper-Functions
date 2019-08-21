@@ -56,7 +56,12 @@ Add a new column to or Edit an existing column on Woocommerce Admin Order List P
 
 ---
 
-## avalidate-if-input-is-order-number
+## validate-if-input-is-order-number
 Check if the input number is a valid Order Number or not
+
+---
+
+## update-post-meta-coupon-product-ids
+Updating product ids that a coupons can be used with programmatically - using update_post_meta(x, 'product_ids', x)
 
 ---
