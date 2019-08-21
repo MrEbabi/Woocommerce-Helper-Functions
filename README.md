@@ -62,6 +62,6 @@ Check if the input number is a valid Order Number or not
 ---
 
 ## update-post-meta-coupon-product-ids
-Updating product ids that a coupons can be used with programmatically - using update_post_meta(x, 'product_ids', x)
+Programmatically creating/updating product ids that a coupons can be used with - using update_post_meta(x, 'product_ids', x)
 
 ---
