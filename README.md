@@ -65,3 +65,8 @@ Check if the input number is a valid Order Number or not
 Programmatically creating/updating product ids that a coupons can be used with - using update_post_meta(x, 'product_ids', x)
 
 ---
+
+## add-conditional-checkout-field
+Add conditionally a custom checkout field to shipping section in WooCommerce
+
+---
