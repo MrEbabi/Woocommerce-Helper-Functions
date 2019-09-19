@@ -70,3 +70,8 @@ Programmatically creating/updating product ids that a coupons can be used with -
 Add conditionally a custom checkout field to shipping section in WooCommerce
 
 ---
+
+## verify-coupon-user-email-manually
+Verify & Check user email when a coupon is applied without using standart email restriction on coupon creation
+
+---
