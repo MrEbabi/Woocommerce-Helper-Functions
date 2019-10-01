@@ -1,4 +1,4 @@
-### Programmatically creating/updating product ids that a coupons can be used with - using update_post_meta(x, 'product_ids', x)
+### Programmatically creating/updating product ids that the coupons can be used with - using update_post_meta(x, 'product_ids', x)
 
 ---
 
