@@ -75,3 +75,8 @@ Add conditionally a custom checkout field to shipping section in WooCommerce
 Verify & Check user email when a coupon is applied without using standart email restriction on coupon creation
 
 ---
+
+## stop-reducing-stock-on-abandoned-admin-order
+Stop WooCommerce For Reducing Stock On Abandoned Admin New Order
+
+---
