@@ -10,7 +10,6 @@ function get_lowest_shipping_flat_rate_1()
 
     foreach ($the_zone['shipping_methods'] as $value) {
         $shipping_costs[] = $value->cost;
-        break;
         }
     }
     
@@ -33,7 +32,6 @@ function get_lowest_shipping_flat_rate_2()
 
     foreach ($the_zone['shipping_methods'] as $value) {
         $shipping_costs[] = $value->cost;
-        break;
         }
     }
 
