@@ -80,3 +80,13 @@ Verify & Check user email when a coupon is applied without using standart email 
 Stop WooCommerce For Reducing Stock On Abandoned Admin New Order
 
 ---
+
+## show-stock-only-for-logged-in-users
+Show stock on single product pages only for logged in users.
+
+---
+
+## check-product-title-add-attribute
+If Product Title Contains An Existing “Brand”, Add this Brand as attribute to product - Woocommerce.
+
+---
