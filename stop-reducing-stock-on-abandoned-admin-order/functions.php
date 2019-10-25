@@ -61,6 +61,6 @@ function woocommerce_process_shop_order ( $post_id, $post ) {
             $note = __("Stock decremented for all items in this order.");
             // Add the note
             $order->add_order_note( $note );
-    }
+        }
     }
 }
