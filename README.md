@@ -2,12 +2,12 @@
 - This repository includes different functions and solutions that I develop for specific Woocommerce problems mentioned in stackoverflow posts.
 - or you can call it as "Remembrall repository".
 
-- Each file includes:
- 1) Link of stackoverflow post
- 2) Description of the problem
- 3) Tested solution for the problem
+- Each folder includes:
+ 1) Link - of stackoverflow post
+ 2) Description - of the problem
+ 3) Code - tested and accepted solution for given problem
  
-- All solutions (codes) goes to functions.php of your theme or child theme.
+- All solutions (codes) goes to functions.php file of your theme or child theme (which is better).
 
 ---
 
